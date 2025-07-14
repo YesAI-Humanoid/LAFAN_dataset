@@ -1,0 +1,18 @@
+paths:
+  policy_path: "/home/yifeng/PycharmProjects/unitreeG1/unitree_rl_gym/deploy_asap/deploy/pre_train/g1_23/T_balance_19500.onnx"
+  xml_path: "/home/yifeng/PycharmProjects/unitreeG1/unitree_rl_gym/deploy_asap/deploy_0529/g1/g1_29dof_anneal_23dof.xml"
+
+simulation:
+  control_decimation: 4
+  simulation_dt: 0.005
+  simulation_duration: 100
+  num_actions: 23
+  history_length: 4
+
+scaling_factors:
+  dof_pos: 1.0  
+  dof_vel: 0.05 
+  base_ang_vel: 0.25  
+  base_lin_vel: 2.0  
+  ref_motion_phase_increment: 0.0013333
+  action: 0.25
